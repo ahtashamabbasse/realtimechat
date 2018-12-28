@@ -3,13 +3,62 @@
 <head>
     <meta charset="UTF-8">
     <title>Join | Chat</title>
+    <link rel="stylesheet" href="/css/styles.css">
 </head>
 <body class="chat">
 
+<div class="chat__sidebar">
+    <h3>People</h3>
+    <div id="users"></div>
+</div>
+
+<div class="chat__main">
+    <ol id="messages" class="chat__messages"></ol>
+    <h3  class="typing"></h3>
+    <div class="chat__footer">
+
+        <form id="message-form">
+            <input type="text" autofocus autocomplete="off" name="message">
+            <button>Send</button>
+        </form>
+        <button id="send-location">Send Location</button>
+    </div>
+</div>
+
+
+<script id="message-template" type="text/template">
+    <li class="message">
+        <div class="message__title">
+            <h4>{{from}} </h4>
+            <span> {{createdat}} </span>
+        </div>
+        <div class="message__body"> {{text}}</div>
+    </li>
+</script>
+
+<script id="location-template" type="text/template">
+    <li class="message">
+        <div class="message__title">
+            <h4>{{from}} </h4>
+            <span> {{createdat}} </span>
+        </div>
+        <div class="message__body"><a href="{{url}}" target="_blank">My current Location</a></div>
+    </li>
+</script>
 
 
 <script src="/socket.io/socket.io.js"></script>
 <script src="/js/lib/jquery.min.js"></script>
+<script src="/js/lib/moment.js"></script>
+<script src="/js/lib/mustache.js"></script>
+<script src="/js/lib/deprams.js"></script>
+
+
 <script src="/js/chat.js"></script>
+
+
+<script>
+
+</script>
 </body>
 </html>

@@ -2,16 +2,49 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Join Chat Room</title>
+    <title>Title</title>
+    <link rel="stylesheet" href="/css/styles.css">
 </head>
-<body>
+<body class="centered-form">
 
+<div class="centered-form__form">
+    <form action="/chat.html">
+
+        <div class="form-field">
+            <h3>Join a Chat</h3>
+        </div>
+        <div class="form-field">
+            <label>Display Name</label>
+            <input type="text" name="name" autofocus>
+        </div>
+        <div class="form-field">
+            <label>Room</label>
+            <input type="text" name="room" >
+        </div>
+
+        <div class="form-field">
+            <button>Join</button>
+        </div>
+
+
+
+    </form>
+
+</div>
 
 
 <script src="/socket.io/socket.io.js"></script>
 <script src="/js/lib/jquery.min.js"></script>
-<script src="/js/chat.js"></script>
+<script src="/js/lib/moment.js"></script>
+<script src="/js/lib/mustache.js"></script>
 
 
+
+<!--<script src="/js/index.js"></script>-->
+
+
+<script>
+
+</script>
 </body>
 </html>
