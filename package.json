@@ -1,7 +1,7 @@
 {
   "name": "sockets",
   "version": "1.0.0",
-  "description": "",
+  "description": "Websocket based group chat app built with socket.io and nodejs.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
