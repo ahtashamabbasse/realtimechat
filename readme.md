@@ -19,13 +19,13 @@ WebSockets is a protocol that provides a bi-directional communication channel. T
 </p>
 
 <p align="center">
-  <img alt="Realtime chat" src="./.github/1.png">
+  <img alt="Realtime chat" src="https://user-images.githubusercontent.com/25702074/55681761-917bc780-5943-11e9-8310-aad75674c4d0.PNG">
   <b>Join a chat room</b><br>
   <sub>💥 Join the chat room with your name💥</sub>
 </p>
 
 <p align="center">
-  <img alt="Realtime chat" src="./.github/2.png">
+  <img alt="Realtime chat" src="https://user-images.githubusercontent.com/25702074/55681771-ae17ff80-5943-11e9-851f-8580b926e7f2.PNG">
   <b>Chat Room</b><br>
   <sub>💥 List of all the user in chat chat room and share your location with them 💥</sub>
 </p>
